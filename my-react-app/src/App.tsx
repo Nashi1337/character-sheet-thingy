@@ -266,7 +266,7 @@ function App() {
 
     const renderDiceShape = (die: DiceType, isActive: boolean) => {
         const size = 32;
-        const color = isActive ? "#ffc107" : "#ccc";
+        const color = isActive ? "#ff0707" : "#ccc";
 
         switch (die) {
             case DiceType.d4:
